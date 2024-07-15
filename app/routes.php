@@ -3,7 +3,7 @@
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
-require __DIR__ . '/../validator.php';
+require __DIR__ . '/../src/Validator/validator.php';
 global $pdo;
 
 
